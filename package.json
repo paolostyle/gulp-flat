@@ -1,0 +1,37 @@
+{
+  "name": "gulp-flat",
+  "version": "0.1.0",
+  "description": "Gulp plugin for flattening JSON files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolostyle/gulp-flat.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "flat",
+    "json",
+    "flatten",
+    "unflatten"
+  ],
+  "author": "Paweł Dąbrowski <dabrowskip9@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paolostyle/gulp-flat/issues"
+  },
+  "homepage": "https://github.com/paolostyle/gulp-flat#readme",
+  "dependencies": {
+    "detect-indent": "^5.0.0",
+    "flat": "^4.0.0",
+    "plugin-error": "^1.0.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "jest": "^22.4.2"
+  }
+}
