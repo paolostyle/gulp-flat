@@ -16,23 +16,23 @@ yarn add gulp-flat --dev
 
 ## Usage
 ```js
-var gulp = require('gulp');
-var flatten = require('gulp-flat');
-var unflatten = require('gulp-flat').unflatten;
+const gulp = require('gulp');
+const flatten = require('gulp-flat');
+const unflatten = require('gulp-flat').unflatten;
 
 var options = {}; // optional, see flat docs for specific information
 
-gulp.task('flatten-json', function () {
-    return gulp.src('file.json')
-        .pipe(flatten(options))
-        .pipe(gulp.dest('dist'));
-});
+gulp.task('flatten-json',
+    () => gulp.src('file.json')
+            .pipe(flatten(options))
+            .pipe(gulp.dest('dist'));
+);
 
-gulp.task('unflatten-json', function () {
-    return gulp.src('file.json')
-        .pipe(unflatten(options))
-        .pipe(gulp.dest('dist'));
-});
+gulp.task('unflatten-json',
+    () => gulp.src('file.json')
+            .pipe(unflatten(options))
+            .pipe(gulp.dest('dist'));
+);
 ```
 
 ## Options
