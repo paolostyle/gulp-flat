@@ -1,4 +1,8 @@
-# gulp-flat [![Build Status](https://api.travis-ci.org/paolostyle/gulp-flat.svg?branch=master)](https://travis-ci.org/paolostyle/gulp-flat)
+# gulp-flat
+
+[![Build Status](https://api.travis-ci.org/paolostyle/gulp-flat.svg?branch=master)](https://travis-ci.org/paolostyle/gulp-flat)
+[![npm version](https://badge.fury.io/js/gulp-flat.svg)](https://badge.fury.io/js/gulp-flat)
+
 Gulp plugin for flattening/unflattening JSON files using
 [flat](https://www.npmjs.com/package/flat) package.
 
