@@ -20,18 +20,18 @@ const gulp = require('gulp');
 const flatten = require('gulp-flat');
 const unflatten = require('gulp-flat').unflatten;
 
-var options = {}; // optional, see flat docs for specific information
+let options = {}; // optional, see flat docs for specific information
 
 gulp.task('flatten-json',
     () => gulp.src('file.json')
             .pipe(flatten(options))
-            .pipe(gulp.dest('dist'));
+            .pipe(gulp.dest('dist'))
 );
 
 gulp.task('unflatten-json',
     () => gulp.src('file.json')
             .pipe(unflatten(options))
-            .pipe(gulp.dest('dist'));
+            .pipe(gulp.dest('dist'))
 );
 ```
 
